@@ -31,13 +31,13 @@ namespace TechicalTestAppBackend.Controllers
                 AgreementNumber = bpkbForm.AgreementNumber,
                 BpkbNo = bpkbForm.BpkbNo,
                 BranchId = bpkbForm.BranchId,
-                BpkbDate = bpkbForm.BpkbDate?.ToLocalTime(),
+                BpkbDate = Convert.ToDateTime(bpkbForm.BpkbDate),
                 FakturNo = bpkbForm.FakturNo,
-                FakturDate = bpkbForm.FakturDate?.ToLocalTime(),
+                FakturDate = Convert.ToDateTime(bpkbForm.FakturDate),
                 LocationId = bpkbForm.LocationId,
                 PoliceNo = bpkbForm.PoliceNo,
-                BpkbDateIn = bpkbForm.BpkbDateIn?.ToLocalTime(),
-                CreatedBy = "ahmad",
+                BpkbDateIn = Convert.ToDateTime(bpkbForm.BpkbDateIn),
+                CreatedBy = username,
                 CreatedOn = DateTime.UtcNow.ToLocalTime(),
                 LastUpdatedBy = username,
             };
@@ -49,7 +49,7 @@ namespace TechicalTestAppBackend.Controllers
             return Ok(new { Message = "Data BPKB berhasil ditambahkan." });
         }
 
-        [HttpGet("get location")]
+        [HttpGet("get_location")]
         public async Task<IActionResult> GetLocation()
         {
             var res = await _context.MsLocationStorages.ToListAsync();

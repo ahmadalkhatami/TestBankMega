@@ -39,3 +39,4 @@
 /Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestApp/obj/Debug/net6.0/Techical.2E339582.Up2Date
 /Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestApp/bin/Debug/net6.0/Newtonsoft.Json.dll
 /Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestApp/bin/Debug/net6.0/System.Security.Permissions.dll
+/Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestApp/obj/Debug/net6.0/TechicalTestApp.sourcelink.json

@@ -45,3 +45,4 @@
 /Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestAppBackend/obj/Debug/net6.0/TechicalTestAppBackend.pdb
 /Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestAppBackend/obj/Debug/net6.0/TechicalTestAppBackend.genruntimeconfig.cache
 /Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestAppBackend/obj/Debug/net6.0/ref/TechicalTestAppBackend.dll
+/Users/ahmadalkhatami/Documents/TestBankMega/TechicalTestAppBackend/obj/Debug/net6.0/TechicalTestAppBackend.sourcelink.json
